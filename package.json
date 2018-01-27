@@ -4,7 +4,7 @@
   "description": "Oytun's tutoring advertisement site",
   "main": "index.html",
   "dependencies": {
-    "bootstrap": "^4.0.0"
+    "bootstrap": "^3.3.7"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Helvetica Neue";
-  src: url("resources/fonts/HelveticaNeue.ttf"); }
+  src: url("../../assets/fonts/HelveticaNeue.ttf"); }
 @font-face {
   font-family: "Cardo", serif; }
 body {
@@ -23,6 +23,9 @@ h2 {
 .center-button {
   text-align: center; }
 
+.right-button {
+  text-align: right; }
+
 button {
   background-color: #3180CD;
   color: white;
@@ -43,7 +46,8 @@ button {
 p {
   font-family: "Helvetica Neue", sans-serif;
   font-size: 1.8em;
-  font-weight: 300;
+  font-weight: 200;
+  letter-spacing: 0.01em;
   text-align: center; }
 
 .review p {
@@ -62,13 +66,28 @@ p {
 
 .contact-form {
   font-size: 1.2em; }
+  .contact-form input, .contact-form textarea {
+    background-color: #3180CD;
+    color: white;
+    border-color: white;
+    font-family: "Helvetica Neue", sans-serif;
+    letter-spacing: 0.08em;
+    font-weight: 200; }
+    .contact-form input input::-webkit-input-placeholder, .contact-form textarea input::-webkit-input-placeholder {
+      color: red; }
+    .contact-form input input:-moz-placeholder, .contact-form textarea input:-moz-placeholder {
+      color: red; }
+    .contact-form input input::-moz-placeholder, .contact-form textarea input::-moz-placeholder {
+      color: red; }
+    .contact-form input input:-ms-input-placeholder, .contact-form textarea input:-ms-input-placeholder {
+      color: red; }
 
-.availability-footer {
-  margin-top: 27em;
-  margin-bottom: 3em; }
+.availability {
+  margin-top: 25em;
+  margin-bottom: 8em; }
 
-.availability-footer .availability {
-  margin-top: 3em;
-  margin-bottom: 5em; }
+.availability .avail {
+  margin-top: 2em;
+  margin-bottom: 0.5em; }
 
 /*# sourceMappingURL=styles.css.map */

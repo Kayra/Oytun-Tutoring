@@ -108,4 +108,42 @@ p.details {
 .contact-form {
   margin-bottom: 4em; }
 
+@media (max-width: 480px) {
+  h1 {
+    font-size: 3em; }
+
+  h2 {
+    font-size: 1.5em; }
+
+  button {
+    font-size: 1.5em; }
+
+  p {
+    font-size: 1.2em; }
+
+  .header {
+    margin-top: 8em;
+    margin-bottom: 5em; }
+
+  .bio {
+    margin-top: 5em;
+    margin-bottom: 2em; }
+
+  .review p {
+    font-size: 1em; }
+
+  .all-reviews {
+    font-size: 0.9em;
+    margin-top: 1em; }
+
+  .availability p {
+    font-size: 1em; }
+
+  .contact-form {
+    font-size: 1em; }
+    .contact-form input, .contact-form textarea {
+      font-size: 1em; }
+    .contact-form button {
+      font-size: 1.5em; } }
+
 /*# sourceMappingURL=styles.css.map */

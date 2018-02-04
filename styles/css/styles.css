@@ -73,18 +73,14 @@ p {
     font-family: "Helvetica Neue", sans-serif;
     letter-spacing: 0.08em;
     font-weight: 200; }
-    .contact-form input input::-webkit-input-placeholder, .contact-form textarea input::-webkit-input-placeholder {
-      color: red;
-      background-color: red; }
-    .contact-form input input:-moz-placeholder, .contact-form textarea input:-moz-placeholder {
-      color: red;
-      background-color: red; }
-    .contact-form input input::-moz-placeholder, .contact-form textarea input::-moz-placeholder {
-      color: red;
-      background-color: red; }
-    .contact-form input input:-ms-input-placeholder, .contact-form textarea input:-ms-input-placeholder {
-      color: red;
-      background-color: red; }
+  .contact-form ::-webkit-input-placeholder {
+    color: #C0C4CC; }
+  .contact-form -moz-placeholder {
+    color: #C0C4CC; }
+  .contact-form ::-moz-placeholder {
+    color: #C0C4CC; }
+  .contact-form -ms-input-placeholder {
+    color: #C0C4CC; }
 
 .availability {
   margin-top: 25em;

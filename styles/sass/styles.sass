@@ -1,12 +1,4 @@
-@mixin placeholder()
-  input::-webkit-input-placeholder
-    @content
-  input:-moz-placeholder
-    @content
-  input::-moz-placeholder
-    @content
-  input:-ms-input-placeholder
-    @content
+
 
 @font-face
     font-family: "Helvetica Neue"
@@ -90,9 +82,14 @@ p
         letter-spacing: 0.08em
         font-weight: 200
 
-        @include placeholder()
-            color: red
-            background-color: red
+    ::-webkit-input-placeholder
+        color: #C0C4CC
+    -moz-placeholder
+        color: #C0C4CC
+    ::-moz-placeholder
+        color: #C0C4CC
+    -ms-input-placeholder
+        color: #C0C4CC
 
 .availability
     margin-top: 25em

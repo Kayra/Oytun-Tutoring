@@ -2,4 +2,3 @@
 
 ## Todo
 * Mobile design
-* Stars in reviews

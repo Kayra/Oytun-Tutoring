@@ -74,13 +74,17 @@ p {
     letter-spacing: 0.08em;
     font-weight: 200; }
     .contact-form input input::-webkit-input-placeholder, .contact-form textarea input::-webkit-input-placeholder {
-      color: red; }
+      color: red;
+      background-color: red; }
     .contact-form input input:-moz-placeholder, .contact-form textarea input:-moz-placeholder {
-      color: red; }
+      color: red;
+      background-color: red; }
     .contact-form input input::-moz-placeholder, .contact-form textarea input::-moz-placeholder {
-      color: red; }
+      color: red;
+      background-color: red; }
     .contact-form input input:-ms-input-placeholder, .contact-form textarea input:-ms-input-placeholder {
-      color: red; }
+      color: red;
+      background-color: red; }
 
 .availability {
   margin-top: 25em;
